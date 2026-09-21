@@ -16,7 +16,7 @@
             prefWidth="850.0"
             xmlns="http://javafx.com/javafx/21"
             xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="ni.edu.uam.estudiantes.controllers.ConsultaController">
+            fx:controller="ni.edu.uam.primercorte7.Consulta_Estudiante">
 
     <top>
         <VBox alignment="CENTER" spacing="5.0">
@@ -52,11 +52,11 @@
 
                 <Button text="Buscar"
                         prefWidth="100.0"
-                        onAction=/>
+                        onAction="#buscarEstudiante"/>
 
                 <Button text="Mostrar todos"
                         prefWidth="120.0"
-                        onAction=/>
+                        onAction="#mostrarTodos"/>
 
             </HBox>
 
@@ -95,7 +95,7 @@
 
                 <Button text="Regresar"
                         prefWidth="110.0"
-                        >
+                        onAction="#regresar"/>
 
             </HBox>
 
